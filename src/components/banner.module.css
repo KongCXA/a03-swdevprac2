@@ -2,6 +2,8 @@
   position: relative;
   width: 100%;
   min-height: 56vh;
+  display: grid;
+  place-items: center;
   border-radius: 16px;
   overflow: hidden;
 }
@@ -24,7 +26,6 @@
   position: relative;
   z-index: 1;
   max-width: 920px;
-  margin: 0 auto;
   padding: 24px;
   text-align: center;
   color: #fff;
